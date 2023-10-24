@@ -1,5 +1,5 @@
 // import CopyPlugin from "copy-webpack-plugin"
-import HtmlWebpackPlugin from 'html-webpack-plugin'
+import HtmlWebpackPlugin from "html-webpack-plugin"
 import path from "path"
 import { Configuration } from "webpack"
 
@@ -35,8 +35,8 @@ module.exports = (): Configuration => ({
         //     patterns: [{ from: "public" }],
         // }),
         new HtmlWebpackPlugin({
-            chunksSortMode: 'none',
-            template: './src/index.html'
-          }),
+            chunksSortMode: "none",
+            template: "./src/index.html",
+        }),
     ],
 })
