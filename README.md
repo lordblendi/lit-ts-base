@@ -5,8 +5,6 @@ Base project setup with:
 - Typescript
 - Lit
 - ESLint & Prettier
-- Tailwind
-- SASS
 
 ## Installation
 

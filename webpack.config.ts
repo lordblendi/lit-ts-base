@@ -19,10 +19,6 @@ module.exports = (): Configuration => ({
                 use: "ts-loader",
                 exclude: /node_modules/,
             },
-            {
-                test: /\.(scss|css)$/,
-                use: ["style-loader", "css-loader", "sass-loader"],
-            },
         ],
     },
     plugins: [
